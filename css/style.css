@@ -1,0 +1,680 @@
+body
+{
+	font-family: 'Noto Serif SC', serif !important;
+	overflow-x:  hidden;
+	margin-bottom: 0 auto;
+}
+
+.top-bar
+{
+	padding-top: 30px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #ababab;
+    background-blend-mode: lighten;
+    width: 100%;
+    height: 900px;
+    padding-bottom: 30px;
+}
+
+/*.top-bar img
+{
+	width: 100%;
+	height: 90px;
+}*/
+
+
+.top-bar  .main .seprator
+{
+	width: 100%;
+    height: 2px;
+    background-color: #b3b3a7;
+    margin-top: 20px;
+}
+
+.top-bar .main a span
+{
+	color: white;
+}
+
+.top-bar .main i
+{
+	font-size: 17px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top-bar .main i:hover
+{
+	color: white;
+}
+
+.top-bar .main a
+{
+	text-decoration: none;
+	font-size: 20px;
+    color: black;
+}
+
+.top-bar .nav
+{
+	padding-top: 25px;
+    text-align: center;
+}
+
+.top-bar .nav .wrapper ul
+{
+	display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-bar .nav .wrapper li a
+{
+	text-decoration: none;
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+}
+
+.top-bar .nav .wrapper li a:hover
+{
+	color: white;
+}
+
+.top-bar .slide
+{
+	padding-top: 250px;
+    /*text-align: center;*/
+}
+
+.top-bar .slide .heading h1
+{
+	font-size: 40px;
+    margin-bottom: 0;
+}
+
+.top-bar .slide .heading p
+{
+	padding-top: 25px;
+    font-size: 12px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.top-bar .slide .heading .button1
+{
+	padding-top: 50px;
+}
+
+.top-bar .slide .heading .button1 a
+{
+	border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    background-color: black;
+    padding: 20px 50px 20px 50px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.top-bar .slide .heading .button1 a:hover
+{
+	background-color: #af4e4e;
+}
+
+.deals
+{
+	padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.deals .main i
+{
+	font-size: 35px;
+
+}
+
+.deals .main h4
+{
+	font-size: 19px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.deals .main p
+{
+	padding-top: 25px;
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.deals .main i:hover
+{
+	color: #0ef5de;
+}
+
+.deals .pics
+{
+	padding-top: 50px;
+}
+
+.deals .pics .main .product-image 
+{
+	width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 4px 8px grey;
+}
+
+.deals .product-image:hover
+{
+    color: #ababab;
+    opacity: 0.5s;
+    transition: 0.7s;
+}
+
+.deals .pics .main .button2 
+{
+	position: absolute;
+    bottom: 50px;
+    width: 100%;
+}
+
+.deals .pics .main a
+{
+	text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    padding: 10px 40px 10px 40px;
+    font-size: 14px;
+}
+
+.deals .pics .main a:hover
+{
+	background-color: black;
+    color: white;
+    /* opacity: 0.5s; */
+    transition: 0.6s;
+}
+
+.product{
+	position: relative;
+}
+
+.trending
+{
+    padding-top: 50px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+/* .trending .main
+{
+    
+} */
+
+.trending h1
+{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.trending .seprator
+{
+    background-color: gray;
+    width: 10%;
+    height: 2px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.trending p
+{
+    padding-top: 40px;
+    font-size: 12px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.trending .types
+{
+    padding-top: 50px;
+}
+
+.trending .types .wrapper .sales ul
+{
+    display: flex;
+    margin-bottom: 0;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.trending .types .wrapper .sales li a 
+{
+    text-decoration: none;
+    margin-left: 15px;
+    margin-right: 15px;
+    border: 1px solid black;
+    padding: 7px 50px 7px 50px;
+    color: white;
+    background-color: gray;
+    box-shadow: 2px 2px 5px grey;
+}
+
+.trending .types .wrapper .sales a:hover
+{
+    background-color: black;
+    color: white;
+    opacity: 0.5s;
+    transition: 0.5s;
+}
+
+.trending .girls
+{
+    padding-top: 70px;
+}
+
+.trending .girls .quantity
+{
+    padding-top: 60px;
+}
+
+.trending .girls .quantity .quantity-image
+{
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 3px 1px 6px grey;
+}
+
+.trending .girls .quantity h6
+{
+    font-size: 17px;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.trending .girls .quantity p
+{
+    padding-top: 12px;
+    margin-bottom: 0;
+    color: gray;
+    font-size: 12px;
+}
+
+.trending .girl
+{
+    padding-top: 40px;
+}
+
+.trending .girl .images
+{
+    
+}
+
+.trending .girl .images .second-image
+{
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.trending .girl .images h6
+{
+    
+}
+
+.trending .girl .image p
+{
+    
+}
+
+.trending .button3
+{
+    padding-top: 80px;
+}
+
+.trending .button3 a
+{
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    font-size: 14px;
+    text-decoration: none;
+    box-shadow: 3px 3px 4px grey;
+}
+
+.trending .button3 a:hover
+{
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.bags
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+/* .bags .folder
+{
+    
+} */
+
+.bags .folder img
+{
+    width: 100%;
+    height: 430px;
+}
+
+.bags .folder .folder-main
+{
+    padding-top: 90px;
+}
+
+
+.bags .folder .folder-main h1
+{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.bags .folder .folder-main .seprator
+{
+    background-color: gray;
+    width: 16%;
+    height: 2px;
+    margin: auto;
+    display: block;
+    margin-top: 35px;
+}
+
+.bags .folder .folder-main p
+{
+    font-size: 13px;
+    padding-top: 30px;
+    margin-bottom: 0;
+    color: gray;
+}
+
+.bags .folder .folder-main .button4
+{
+    padding-top: 50px;
+}
+
+.bags .folder .folder-main .button4 a
+{
+    border: 1px solid gray;
+    border-radius: 3px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 20px 40px 20px 40px;
+    font-size: 15px;
+    box-shadow: 2px 3px 6px grey;
+}
+
+.bags .folder .folder-main .button4 a:hover
+{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.brands
+{
+    background-color: thistle;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.brands .names a
+{
+    color: gray;
+    font-size: 18px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.instagram 
+{
+    text-align: center;
+}
+
+.instagram .tag h1
+{
+    color: white;
+}
+
+.instagram  .tag .pic
+{
+    width: 229px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: #505050;
+}
+
+.map
+{
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    background-color: #b1b1b1;
+    padding-top: 70px;
+    padding-bottom: 300px;
+}
+
+.map .addres 
+{
+    background-color: white;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    box-shadow: 5px 5px 4px grey;
+}
+
+.map .addres p
+{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 40px;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+.detail
+{
+    padding-top: 80px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 560px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: #e0e0e0;
+}
+
+.detail .main
+{
+    
+}
+
+.detail .main .one 
+{
+
+}
+
+.detail .main .one h1
+{
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 0;
+}
+
+.detail .main .one p
+{
+    font-size: 13px;
+    padding-left: 3px;
+    padding-right: 30px;
+    margin-bottom: 0;
+    color: gray;
+    padding-top: 50px;
+}
+
+.detail .main .one .icon
+{
+    padding-top: 30px;
+}
+
+.detail .main .one .icon i
+{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 10px 10px 10px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 20px;
+    background-color: #dadada;
+    color: #828e9a;
+    box-shadow: 3px 1px 5px grey;
+}
+
+.detail .main .one .icon i:hover
+{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
+
+.detail .main .one .input
+{
+    padding-top: 40px;
+}
+
+.detail .main input
+{
+    width: 80%;
+    height: 40px;
+    padding: 0px 0 7px 0px;
+    box-shadow: 2px 1px 4px grey;
+    font-size: 15px;
+}
+
+.detail .main .one .button5
+{
+    text-align: center;
+    padding-top: 40px;
+}
+
+.detail .main .one .button5 a
+{
+    border: 1px solid gray;
+    border-radius: 50px;
+    padding: 7px 30px 7px 30px;
+    background-color: black;
+    color: white;
+    box-shadow: 3px 1px 5px grey;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.detail .main .one .button5 a:hover
+{
+    background-color: #dadada;
+    color: black;
+    transition: 0.5s;
+}
+
+/* .detail .main .second
+{
+    
+} */
+
+.detail .main .second h3
+{
+    font-size: 19px;
+    margin-bottom: 0;
+}
+
+.detail .main .second .text
+{
+    padding-top: 50px;
+}
+
+.detail .main .second p
+{
+    margin-bottom: 0;
+    font-size: 15px;
+    color: gray;
+    padding-top: 15px;
+}
+
+.copy
+{
+    background-color: #313131;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copy .last .email
+{
+    padding-top: 10px;
+}
+
+.copy .last .email p
+{
+    color: #a2a2a2;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.copy .last .png i
+{
+    font-size: 45px;
+    color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.copy .last .png i:hover
+{
+    color: #0ef5de;
+    opacity: 0.5s;  
+}
+
+
+
+
+
+

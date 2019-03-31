@@ -1,2 +1,2 @@
-# arkana-ui
-landing page ui
+# Arkana
+E-commerce Website
